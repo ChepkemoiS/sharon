@@ -1,10 +1,10 @@
-/* Reset some default margin and padding */
+
 body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
 }
 
-/* Apply a background color and some styling to the header */
+
 header {
     background-color: #333;
     color: #fff;
@@ -12,9 +12,9 @@ header {
     padding: 20px;
 }
 
-/* Style the navigation links */
+
 .navbar {
-    background-color: #444;
+    background-color: white;
     padding: 10px 0;
 }
 
@@ -24,7 +24,7 @@ header {
     padding: 10px 20px;
 }
 
-/* Apply styles to the different sections */
+
 .section-heading {
     text-align: center;
     margin-bottom: 20px;
@@ -40,7 +40,7 @@ header {
     margin-bottom: 20px;
 }
 
-/* Style the social media icons */
+
 .hm-foot-icon ul {
     list-style: none;
     padding: 0;
@@ -55,8 +55,6 @@ header {
     font-size: 20px;
     color: #333;
 }
-
-/* Responsive styles for smaller screens */
 @media (max-width: 767px) {
     .navbar {
         text-align: center;
@@ -67,17 +65,18 @@ header {
         margin-bottom: 10px;
     }
 }
-ul.menu-col{
+ul {
     padding: 0;
     margin: 0;
     list-style: none;
-}
 
-ul.menu-col li a{
+}
+  
+ul {
     color: #6f6f6f;
 }
 
-ul.menu-col li a:hover,
-ul.menu-col li a:focus{
+ul:hover,
+ul:focus{
     text-decoration: none;
 }
