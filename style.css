@@ -988,7 +988,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 992px) 
     /* Navbar Responsive
     =================================*/ 
     nav.navbar.bootsnav .navbar-brand    {
@@ -1280,7 +1280,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     /* Tabs
     =================================*/ 
     nav.navbar.bootsnav .megamenu-content.tabbed{
-        padding-left: 0 !mportant;
+        padding-left: 0;
     }
     
     nav.navbar.bootsnav .tabbed > li{
@@ -1370,7 +1370,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         width: 100%;
         display: block;
     }
-}
+
 
 @media (max-width: 767px) {
     nav.navbar.bootsnav .navbar-header {
